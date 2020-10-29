@@ -12,6 +12,7 @@
 * Reduce Object Example 
 * Getters and Setters [link](https://www.youtube.com/watch?v=bl98dm7vJt0)
 * `${personal.name}`
+* this | global or local [link](https://www.youtube.com/watch?v=gvicrj31JOM)
 
 ### Basic 
 
