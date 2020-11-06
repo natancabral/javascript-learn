@@ -47,7 +47,7 @@
 * do while loops
 * for loop
 * Array Iterators
-* forEach
+* [forEach](while/forEach.md)
 * Math Object
 * Date Object
 
