@@ -26,6 +26,15 @@
 * Data Types
 * [Arrays](basic/arrays/array-init.md)
   * [Some & Every](basic/arrays/array-some-and-every.md)
+  * [Fill](basic/arrays/array-fill.md)
+  * [Filter](basic/arrays/array-filter.md)
+  * [Find](basic/arrays/array-find.md)
+  * [Includes](basic/arrays/array-includes.md)
+  * [Join Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+  * [Map Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  * [Reduce Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+  * [Pop Push Shoft Unshift Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+  * [Sort & Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 * Functions - Declare, Invoke
 * Functions - Parameters, Arguments
 * Functions - Return
