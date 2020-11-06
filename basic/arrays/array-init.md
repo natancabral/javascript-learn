@@ -1,3 +1,5 @@
+## Init
+
 #### Create an Array
 ```js
 let fruits = ['Apple', 'Banana']
