@@ -25,6 +25,7 @@
 * Implicit Type Conversion
 * Data Types
 * [Arrays](basic/arrays/array-init.md)
+  * [Some & Every](basic/arrays/array-some-and-every.md)
 * Functions - Declare, Invoke
 * Functions - Parameters, Arguments
 * Functions - Return
