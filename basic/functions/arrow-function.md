@@ -77,3 +77,30 @@ let bob = a => a + 100;
 bob(110);
 // 210
 ```
+
+## Advanced syntax
+
+#### To return an object literal expression requires parentheses around expression:
+
+```js
+params => ({foo: "a"}) // returning the object {foo: "a"}
+```
+
+#### Rest parameters are supported:
+
+```js
+(a, b, ...r) => expression
+```
+
+#### Default parameters are supported:
+
+```js
+(a=400, b=20, c) => expression
+```
+
+#### Destructuring within params supported:
+
+```js
+([a, b] = [10, 20]) => a + b;  // result is 30
+({ a, b } = { a: 10, b: 20 }) => a + b; // result is 30
+```
