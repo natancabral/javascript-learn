@@ -48,7 +48,7 @@ let b = 2;
 let result = () => a + b + 100;
 ```
 
-Break lines
+#### Break lines
 
 ```js
 // Traditional Function
@@ -64,7 +64,7 @@ function (a, b){
 }
 ```
 
-Function name
+#### Named functions
 
 ```js
 // Traditional Function
