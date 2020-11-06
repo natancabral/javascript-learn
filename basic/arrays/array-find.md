@@ -39,3 +39,14 @@ const result = inventory.find( (arr) => arr.name === 'cherries' );
 const result = inventory.find( ({ name }) => name === 'cherries' );
 console.log(result) // { name: 'cherries', quantity: 5 }
 ```
+
+## FindIndex
+
+#### Get index position
+
+```js
+const array1 = [5, 12, 8, 130, 44];
+const isLargeNumber = (element) => element > 13;
+console.log(array1.findIndex(isLargeNumber));
+// expected output: 3
+```
