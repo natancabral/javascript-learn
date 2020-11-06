@@ -25,7 +25,7 @@ a => a + 100;
 
 #### Two arguments
 
-```
+```js
 // Traditional Function
 function (a, b){
   return a + b + 100;
@@ -48,6 +48,8 @@ let b = 2;
 let result = () => a + b + 100;
 ```
 
+Break lines
+
 ```js
 // Traditional Function
 function (a, b){
@@ -61,6 +63,8 @@ function (a, b){
   return a + b + chuck;
 }
 ```
+
+Function name
 
 ```js
 // Traditional Function
