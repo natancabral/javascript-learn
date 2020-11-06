@@ -89,3 +89,20 @@ console.log(removedItems)
 let shallowCopy = fruits.slice() // this is how to make a copy
 // ["Strawberry", "Mango"]
 ```
+
+#### Copy and remove item position
+
+```js
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+```
+
+## Slice != Splice
+
+* **Slice** is a new ***copy*** Array (fatia/pedaço)
+* **S(P)lice** change current Array (emendar/unir/entrançar)
