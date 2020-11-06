@@ -24,7 +24,7 @@
 * Numbers Basics
 * Implicit Type Conversion
 * Data Types
-* Arrays
+* [Arrays](basic/arrays/array-init.md)
 * Functions - Declare, Invoke
 * Functions - Parameters, Arguments
 * Functions - Return
