@@ -1,4 +1,5 @@
 ## Some
+> return Boolean
 #### Testing value of array elements
 
 ```js
@@ -11,6 +12,7 @@ function isBiggerThan10(element, index, array) {
 ```
 
 ## Every
+> return Boolean
 #### The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
 
 ```js
