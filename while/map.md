@@ -19,7 +19,7 @@ let newArray = arr.map(callback(currentValue[, index[, current array]]) {
 // 7,  3,  Array(4) [ 4, 5, 6, 7 ]
 ```
 
-#### Example
+#### Example 1
 
 ```js
 const array1 = [1, 4, 9, 16];
