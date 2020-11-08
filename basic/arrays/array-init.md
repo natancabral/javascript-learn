@@ -38,7 +38,7 @@ let last = fruits.pop() // remove Orange (from the end)
 
 #### Remove an item from the beginning of an Array
 
-```
+```js
 let first = fruits.shift() // remove Apple from the front
 // ["Banana"]
 ```
