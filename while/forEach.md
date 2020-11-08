@@ -1,5 +1,5 @@
 ## forEach (***Unrecommended***)
-
+> Better [Map](/while/map.md)
 #### The forEach() method executes a provided function once for each array element.
 
 ```js
