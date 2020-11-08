@@ -1,5 +1,5 @@
 ## Find
-
+> return Object Value
 #### The find() method returns the value of the first element in the provided array that satisfies the provided testing function.
 
 ```js
@@ -41,7 +41,7 @@ console.log(result) // { name: 'cherries', quantity: 5 }
 ```
 
 ## FindIndex
-
+> return Int
 #### Get index position
 
 ```js
