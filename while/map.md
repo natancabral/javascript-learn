@@ -61,7 +61,7 @@ let doubles = numbers.map(function(num) {
 // For comparison, if we use parseInt() on the array above:
 ['1.1', '2.2e2', '3e300'].map( str => parseInt(str) ) // [1, 2, 3]
 ```
-Simple Map## Index
+## Map with Index
 
 ```js
 let numbers = [1, 2, 3, 4]
