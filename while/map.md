@@ -1,5 +1,5 @@
 ## Map
-> return Array()
+> return New Array()
 
 ```js
 let newArray = arr.map(callback(currentValue[, index[, array]]) {
