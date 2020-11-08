@@ -48,6 +48,17 @@ let b = 2;
 let result = () => a + b + 100;
 ```
 
+#### Variable function | React.js Class
+
+```js
+// tradicional function
+function name () {
+}
+// to react class 
+name = (v) => {
+}
+```
+
 #### Break lines
 
 ```js
