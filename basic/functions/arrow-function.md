@@ -101,6 +101,8 @@ params => ({foo: "a"}) // returning the object {foo: "a"}
 #### Destructuring within params supported:
 
 ```js
+// Aray
 ([a, b] = [10, 20]) => a + b;  // result is 30
+// Object
 ({ a, b } = { a: 10, b: 20 }) => a + b; // result is 30
 ```
