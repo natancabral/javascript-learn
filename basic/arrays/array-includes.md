@@ -1,7 +1,6 @@
 ## Includes
+> return Boolean | Array.includes(find,startIndex)
 #### The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
-
-> Array.includes(find,startIndex);
 
 ```js
 const array1 = [1, 2, 3];
@@ -25,7 +24,6 @@ console.log(pets.includes('at'));
 [1, 2, 3].includes(3, 3)   // false
 [1, 2, 3].includes(3, -1)  // true
 [1, 2, NaN].includes(NaN)  // true
-
 ```
 
 #### startIndex || fromIndex
