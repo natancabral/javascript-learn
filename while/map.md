@@ -2,9 +2,21 @@
 > return New Array()
 
 ```js
-let newArray = arr.map(callback(currentValue[, index[, array]]) {
+let newArray = arr.map(callback(currentValue[, index[, current array]]) {
   // return element for newArray, after executing something
 }[, thisArg]);
+```
+
+#### Log
+```js
+[4,5,6,7].map((a,b,c)=>console.log(a,b,c))
+//[4,5,6,7].map((currentValue,index,currentArray)=>console.log(currentValue,index,currentArray))
+
+//console.log(a,b,c)
+// 4,  0,  Array(4) [ 4, 5, 6, 7 ]
+// 5,  1,  Array(4) [ 4, 5, 6, 7 ]
+// 6,  2,  Array(4) [ 4, 5, 6, 7 ]
+// 7,  3,  Array(4) [ 4, 5, 6, 7 ]
 ```
 
 #### Example
@@ -61,7 +73,7 @@ let doubles = numbers.map(function(num) {
 // For comparison, if we use parseInt() on the array above:
 ['1.1', '2.2e2', '3e300'].map( str => parseInt(str) ) // [1, 2, 3]
 ```
-## Map with Index
+#### Map with Index
 
 ```js
 let numbers = [1, 2, 3, 4]
