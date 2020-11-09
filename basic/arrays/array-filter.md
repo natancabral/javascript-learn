@@ -1,6 +1,6 @@
 ## Filter
 
-> return Array()
+> return New Array() | .filter(currentValue, index, selfArray);
 
 #### The filter() method creates a new array with all elements that pass the test implemented by the provided function.
 
