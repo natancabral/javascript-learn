@@ -1,6 +1,6 @@
 ## Array.from() / Shalow-Copied
 
-> return New Array()
+> return New Array() | Array.from(Array, callBack(value,index) ) 
 
 #### Basic
 ```js
@@ -9,6 +9,11 @@ console.log(Array.from('foo'));
 
 console.log(Array.from([1, 2, 3], x => x + x));
 // expected output: Array [2, 4, 6]
+
+Array.from([11,22,33],(x,i,y) => console.log(x, x*2, i))
+// 11, 22, 0 
+// 22, 44, 1
+// 33, 66, 2
 ```
 
 #### Array from a String
@@ -48,6 +53,7 @@ Array.from(mapper.keys());
 const images = document.getElementsByTagName('img'); 
 const sources = Array.from(images, image => image.src);
 const insecureSources = sources.filter(link => link.startsWith('http://'));
+```
 
 #### Array from an Array-like object (arguments)
 
