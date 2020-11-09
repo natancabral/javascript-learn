@@ -51,13 +51,13 @@ let result = () => a + b + 100;
 #### Variable function | React.js Class
 
 ```js
-// tradicional function js
+// tradicional function jsx 
 function name (v) {
 }
-// function jsx
+// function on Class jsx (no need 'function')
 name(v){
 }
-// to react class 
+// to react class or component
 name = (v) => {
 }
 ```
