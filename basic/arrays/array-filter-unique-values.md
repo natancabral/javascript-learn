@@ -1,5 +1,5 @@
-## Unique Values
-> return New Array()
+## Unique Values (Filter)
+> return New Array() | .filter(value, index, self) 
 
 #### Classic | ES5
 ```js
