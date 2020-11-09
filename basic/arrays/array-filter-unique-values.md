@@ -1,5 +1,5 @@
-## Unique Values (Filter/From)
-> return New Array() | .filter(value, index, self) | .from(array, callback(value, index))
+## Unique Values (Filter/From/Set/Map)
+> return New Array() | .filter(value, index, self) | .from(array, callback(value, index)) | new Set(Array)
 
 #### Classic | ES5
 ```js
