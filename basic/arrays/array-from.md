@@ -2,7 +2,7 @@
 
 > return New Array()
 
-## Basic
+#### Basic
 ```js
 console.log(Array.from('foo'));
 // expected output: Array ["f", "o", "o"]
