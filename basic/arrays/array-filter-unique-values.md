@@ -1,7 +1,7 @@
 ## Unique Values
 > return New Array()
 
-## Classic | ES5
+#### Classic | ES5
 ```js
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
@@ -13,7 +13,7 @@ console.log(unique);
 // ['a', 1, 2, '1']
 ```
 
-## Best | ES6
+#### Best | ES6
 
 ```js
 const myArray = ['a', 1, 'a', 2, '1'];
