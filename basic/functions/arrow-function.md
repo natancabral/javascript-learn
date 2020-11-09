@@ -120,3 +120,24 @@ params => ({foo: "a"}) // returning the object {foo: "a"}
 // Object
 ({ a, b } = { a: 10, b: 20 }) => a + b; // result is 30
 ```
+
+#### Sample
+
+```js
+// Object
+const book = {
+  id: 1,
+  name: 'Book Name',
+} 
+// Object
+const person = {}
+person.id = 1;
+person.name = 'First Name';
+person.lastName = 'Last Name';
+
+// Catch 
+const {id, name} = book;
+console.log(name) // Book Name
+const {lastName, name, id } = persom;
+console.log(lastName) // Last Name
+```
