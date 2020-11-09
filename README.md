@@ -4,7 +4,7 @@
 
 * [Arrow Funcion](basic/functions/arrow-function.md)
 * [Map](while/map.md) | [Video](https://www.youtube.com/watch?v=80KX6aD9R7M&list=PLnHJACx3NwAfRUcuKaYhZ6T5NRIpzgNGJ)
-* Unique Values
+* [Unique Values](basic/arrays/array-filter-unique-values.md)
 * Dynamic Object Key [link](https://www.samanthaming.com/tidbits/37-dynamic-property-name-with-es6/)
 * Filter and Finder 
 * Reduce Basics
