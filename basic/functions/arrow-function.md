@@ -135,7 +135,10 @@ person.id = 1;
 person.name = 'First Name';
 person.lastName = 'Last Name';
 
-// Catch 
+// Old 
+let idBook = book.id
+let nameBook = book.name
+// New Catch 
 const {id, name} = book;
 console.log(name) // Book Name
 const {lastName, name, id } = person;
