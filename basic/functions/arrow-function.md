@@ -138,6 +138,6 @@ person.lastName = 'Last Name';
 // Catch 
 const {id, name} = book;
 console.log(name) // Book Name
-const {lastName, name, id } = persom;
+const {lastName, name, id } = person;
 console.log(lastName) // Last Name
 ```
