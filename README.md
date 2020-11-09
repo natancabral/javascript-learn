@@ -30,6 +30,7 @@
   * [Filter](basic/arrays/array-filter.md)
   * [Find](basic/arrays/array-find.md)
   * [Includes](basic/arrays/array-includes.md)
+  * [Array.from()](basic/arrays/array-from.md)
   * [Join Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
   * [Map Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
   * [Reduce Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
