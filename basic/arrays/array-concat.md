@@ -57,7 +57,7 @@ console.log(b); // undefined
 console.log(c); // C
 
 [,, ...rest] = numbers;
-console.log([,, ...rest]); // [3, 4, 5, 6]
+console.log(rest); // [3, 4, 5, 6]
 ```
 #### Sample 4 [...spread]
 ```js
