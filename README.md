@@ -8,7 +8,7 @@
 * Dynamic Object Key [link](https://www.samanthaming.com/tidbits/37-dynamic-property-name-with-es6/)
 * Filter and Finder 
 * Reduce Basics
-* [Destruction Array & Object](basic/destruction-array-and-object.md)
+* [Destruction Array & Object](basic/advanced/destruction-array-and-object.md)
 * Reduce Object Example 
 * Getters and Setters [link](https://www.youtube.com/watch?v=bl98dm7vJt0)
 * `${personal.name}`
