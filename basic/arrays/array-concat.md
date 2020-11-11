@@ -27,6 +27,9 @@ const notArray = 'random';
 let result = [...isArray, ...noArray);
 // [ 1, 2, 3, 'r', 'a', 'n', 'd', 'o', 'm' ]
 
+let result = [...isArray, noArray);
+// [ 1, 2, 3, 'random' ]
+
 let result = [].concat(isArray, noArray);
 // [ 1, 2, 3, 'random' ] // Fine
 
@@ -43,7 +46,7 @@ cars.push(...trucks);
 // [ 'ford', 'ferrari', 'mercedes', 'scania' ]
 ```
 
-### Sample 3 [a,,c]
+#### Sample 3 [a,,c]
 ```js
 const numbers = [1, 2, 3, 4, 5, 6];
 const alphabet = ['A', 'B', 'C', 'D'];
@@ -55,4 +58,17 @@ console.log(c); // C
 
 [,, ...rest] = numbers;
 console.log([,, ...rest]); // [3, 4, 5, 6]
+```
+#### Sample 4 [...spread]
+```js
+function myFun(a,  b, ...manyMoreArgs) {
+  console.log("a", a)
+  console.log("b", b)
+  console.log("manyMoreArgs", manyMoreArgs)
+}
 
+myFun("one", "two", "three", "four", "five", "six")
+// a, one
+// b, two
+// manyMoreArgs, ["three", "four", "five", "six"]
+```
