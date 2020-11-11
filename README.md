@@ -25,6 +25,7 @@
 * Implicit Type Conversion
 * Data Types
 * [Arrays](basic/arrays/array-init.md)
+  * [Concat](basic/arrays/array-concat.md)
   * [Some & Every](basic/arrays/array-some-and-every.md)
   * [Fill](basic/arrays/array-fill.md)
   * [Filter](basic/arrays/array-filter.md)
