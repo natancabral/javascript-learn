@@ -8,8 +8,8 @@ const person = {
   age: 23,
   address: {
     city: 'Las Vegas',
-    state: 'Nevada'
-  }
+    state: 'Nevada',
+  },
 }
 
 const {name, age} = person;
