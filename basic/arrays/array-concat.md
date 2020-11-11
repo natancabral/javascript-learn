@@ -42,3 +42,17 @@ cars.push(trucks);
 cars.push(...trucks);
 // [ 'ford', 'ferrari', 'mercedes', 'scania' ]
 ```
+
+### Sample 3 [a,,c]
+```js
+const numbers = [1, 2, 3, 4, 5, 6];
+const alphabet = ['A', 'B', 'C', 'D'];
+
+[a,,c] = alphabet;
+console.log(a); // A
+console.log(b); // undefined
+console.log(c); // C
+
+[,, ...rest] = numbers;
+console.log([,, ...rest]); // [3, 4, 5, 6]
+
