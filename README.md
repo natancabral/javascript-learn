@@ -5,6 +5,7 @@
 * [Arrow Funcion](basic/functions/arrow-function.md)
 * [Map](while/map.md) | [Video](https://www.youtube.com/watch?v=80KX6aD9R7M&list=PLnHJACx3NwAfRUcuKaYhZ6T5NRIpzgNGJ)
 * [Unique Values](basic/arrays/array-filter-unique-values.md)
+* [Delete](basic/advanced/delete-array-and-object.md)
 * Dynamic Object Key [link](https://www.samanthaming.com/tidbits/37-dynamic-property-name-with-es6/)
 * Filter and Finder 
 * Reduce Basics
@@ -31,11 +32,11 @@
   * [Find](basic/arrays/array-find.md)
   * [Includes](basic/arrays/array-includes.md)
   * [Array.from()](basic/arrays/array-from.md)
-  * [Join Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
-  * [Map Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Reduce Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-  * [Pop Push Shoft Unshift Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-  * [Sort & Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+  * Join [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+  * Map [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  * Reduce [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+  * Pop Push Shoft Unshift [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+  * Sort & Reverse [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 * Functions - Declare, Invoke
 * Functions - Parameters, Arguments
 * Functions - Return
