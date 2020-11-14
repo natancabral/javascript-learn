@@ -3,14 +3,17 @@
 ## Welcome 
 
 ```js
+// constant
 const welcome = {
   message: 'Welcome',
-  person: 'my litte'
-  subject: 'friend'
+  person: 'my litte',
+  subject: 'friend',
 }
+// arrow function destruction 
 let GoogMorning = ({message: ms, person: ps, subject: su}) => {
   return ` Hello! ${ms} ${ps} ${su} `
 }
+// print log
 console.log("%c"+GoogMorning(welcome), "color:green")
 ```
 
