@@ -1,5 +1,15 @@
 # JavaScript ES6
-
+````js
+const welcome = {
+  message: 'Welcome',
+  person: 'my litte'
+  subject: 'friend'
+}
+let GoogMorning = ({message: ms, person: ps, subject: su}) => {
+  return ` Hello! ${ms} ${ps} ${su} `
+}
+console.log("%c"+GoogMorning(welcome), "color:green")
+```
 ## Advanced
 
 * [Arrow Funcion](basic/functions/arrow-function.md)
