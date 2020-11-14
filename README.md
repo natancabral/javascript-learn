@@ -11,10 +11,10 @@
 const welcome = {
   message: 'Welcome',
   person: 'my litte',
-  subject: 'friend',
+  subject: 'friend', // this comma no necessary, but nice on ES6
 }
 // arrow function destruction 
-let GoogMorning = ({message: ms, person: ps, subject: su}) => {
+let GoogMorning = ({message: ms, person: ps, subject: su}) => { // you want to get just need
   return ` Hello! ${ms} ${ps} ${su} `
 }
 // print log
