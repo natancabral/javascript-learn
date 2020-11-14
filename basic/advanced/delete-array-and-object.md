@@ -23,18 +23,15 @@ arr // [0, 1, 2, 4]
 ```
 #### Sample 1
 ```js
-// 1
-someArray.shift(); // first element removed
-// 2
-someArray = someArray.slice(1); // first element removed
-// 3
-someArray.splice(0, 1); // first element removed
-// 4
-someArray.pop(); // last element removed
-// 5
-someArray = someArray.slice(0, a.length - 1); // last element removed
-// 6
-someArray.length = someArray.length - 1; // last element removed
+// first element removed
+someArray.shift();
+someArray = someArray.slice(1);
+someArray.splice(0, 1);
+
+// last element removed
+someArray.pop();
+someArray = someArray.slice(0, a.length - 1);
+someArray.length = someArray.length - 1;
 ```
 * en: If you want to remove element at position x, use:
 ```js
