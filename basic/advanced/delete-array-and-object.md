@@ -94,16 +94,17 @@ var myObject = {
     "method": "newURI",
     "regex": "^http://.*"
 };
+
 delete myObject.regex;
 // or,
 delete myObject['regex'];
 // or,
 var prop = "regex";
 delete myObject[prop];
-```
 
-```js
-```
-
-```js
+console.log(myObject);
+// {
+//    "ircEvent": "PRIVMSG",
+//    "method": "newURI",
+// };
 ```
