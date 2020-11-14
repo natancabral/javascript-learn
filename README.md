@@ -3,6 +3,10 @@
 ## Welcome 
 
 ```js
+//----------------------------------------------------------------
+#       Author: Natan Cabral
+#  Description: No panic, this is simple javascript
+###################################################################
 // constant
 const welcome = {
   message: 'Welcome',
