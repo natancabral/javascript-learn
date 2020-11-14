@@ -22,9 +22,8 @@ console.log("%c" + GoogMorning(welcome), "color:green; font-size: 25px")
 ```
 ---
 <img src="welcome.png">
----
-> <img src="welcome.png">
----
+
+
 ## Advanced
 
 * [Arrow Funcion](basic/functions/arrow-function.md)
