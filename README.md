@@ -14,14 +14,12 @@ const welcome = {
   person: 'my litte',
   subject: 'friend',
 }
-
 // arrow function destruction 
 let GoodMorning = ({message: ms, person: ps, subject: su}) => {
   return ` ${ms} ${ps} ${su} `
 }
 // destruction array, you can change
 let hi = [...['Hello!'], GoodMorning(welcome)]
-
 // log
 console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
 
