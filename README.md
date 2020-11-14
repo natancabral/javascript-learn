@@ -7,7 +7,7 @@
 //       Author: Natan Cabral                         //
 //  Description: No panic, this is simple javascript  //
 //----------------------------------------------------//
-// constant
+// constant object variable
 const welcome = {
   message: 'Welcome',
   person: 'my litte',
