@@ -25,12 +25,13 @@ arr // [0, 1, 2, 4]
 ```js
 // first element removed
 someArray.shift();
-someArray = someArray.slice(1);
 someArray.splice(0, 1);
+someArray = someArray.slice(1); // slice create a New Array()
 
 // last element removed
 someArray.pop();
-someArray = someArray.slice(0, a.length - 1);
+someArray.splice(-1, 1);
+someArray = someArray.slice(0, a.length - 1); // slice create a New Array()
 someArray.length = someArray.length - 1;
 ```
 en: If you want to remove element at position x, use:
