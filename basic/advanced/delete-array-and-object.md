@@ -3,7 +3,7 @@
 > return Array()
 #### Delete = Undefined
 > **Warning**: Doesn't like delete myArray[0] syntax saying "Expected an operator and instead saw 'delete'." Using splice is recommende.
-````js
+```js
 let myArray = ['a', 'b', 'c', 'd']
 // ["a", "b", "c", "d"]
 delete myArray[0];
@@ -73,7 +73,7 @@ Array.prototype.remove = function(from, to) {
   return this.push.apply(this, rest);
 };
 ```
-and here's some examples of how it could be used:
+en: And here's some examples of how it could be used:
 ```js
 // Remove the second item from the array
 array.remove(1);
