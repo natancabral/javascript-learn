@@ -18,7 +18,7 @@ let GoogMorning = ({message: ms, person: ps, subject: su}) => { // you want to g
   return ` Hello! ${ms} ${ps} ${su} `
 }
 // print log
-console.log("%c"+GoogMorning(welcome), "color:green")
+console.log("%c" + GoogMorning(welcome), "color:green; font-size: 25px")
 ```
 
 
