@@ -20,10 +20,10 @@ let GoogMorning = ({message: ms, person: ps, subject: su}) => {
   return ` ${ms} ${ps} ${su} `
 }
 // destruction array, you can change
-let Hi = [...['Hello!'], GoogMorning(welcome)]
+let hi = [...['Hello!'], GoogMorning(welcome)]
 
 // log
-console.log("%c" + hll.map(e=>e).join(''), "color:green; font-size: 25px");
+console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
 
 ```
 ---
