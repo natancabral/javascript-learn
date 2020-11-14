@@ -33,7 +33,7 @@ someArray.pop();
 someArray = someArray.slice(0, a.length - 1);
 someArray.length = someArray.length - 1;
 ```
-* en: If you want to remove element at position x, use:
+en: If you want to remove element at position x, use:
 ```js
 someArray.splice(x, 1);
 ```
