@@ -15,18 +15,15 @@ const welcome = {
   subject: 'friend',
 }
 
-// let array, you can change 
-let Hi = Array(['Hello!']);
-
 // arrow function destruction 
 let GoogMorning = ({message: ms, person: ps, subject: su}) => {
   return ` ${ms} ${ps} ${su} `
 }
-// destruction array
-Hi = [...Hi, GoogMorning(welcome)]
+// destruction array, you can change
+let Hi = [...['Hello!'], GoogMorning(welcome)]
 
 // log
-console.log("%c" + hll.map(e=>e).join(''), "color:green; font-size: 25px")
+console.log("%c" + hll.map(e=>e).join(''), "color:green; font-size: 25px");
 
 ```
 ---
