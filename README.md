@@ -7,18 +7,27 @@
 //       Author: Natan Cabral                         //
 //  Description: No panic, this is simple javascript  //
 //----------------------------------------------------//
+
 // constant object
 const welcome = {
   message: 'Welcome',
   person: 'my litte',
-  subject: 'friend', // this comma no necessary, but nice on ES6
+  subject: 'friend',
 }
+
+// let array, you can change 
+let Hi = Array(['Hello!']);
+
 // arrow function destruction 
-let GoogMorning = ({message: ms, person: ps, subject: su}) => { // you want to get just need
-  return ` Hello! ${ms} ${ps} ${su} `
+let GoogMorning = ({message: ms, person: ps, subject: su}) => {
+  return ` ${ms} ${ps} ${su} `
 }
-// print log
-console.log("%c" + GoogMorning(welcome), "color:green; font-size: 25px")
+// destruction array
+Hi = [...Hi, GoogMorning(welcome)]
+
+// log
+console.log("%c" + hll.map(e=>e).join(''), "color:green; font-size: 25px")
+
 ```
 ---
 <img src="welcome.png">
