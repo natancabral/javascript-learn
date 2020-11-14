@@ -20,7 +20,7 @@ let GoogMorning = ({message: ms, person: ps, subject: su}) => { // you want to g
 // print log
 console.log("%c" + GoogMorning(welcome), "color:green; font-size: 25px")
 ```
-
+(<img src="welcome.png">)
 
 ## Advanced
 
