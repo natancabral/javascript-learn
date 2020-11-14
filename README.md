@@ -1,5 +1,8 @@
 # JavaScript ES6
-````js
+
+## Welcome 
+
+```js
 const welcome = {
   message: 'Welcome',
   person: 'my litte'
@@ -10,6 +13,8 @@ let GoogMorning = ({message: ms, person: ps, subject: su}) => {
 }
 console.log("%c"+GoogMorning(welcome), "color:green")
 ```
+
+
 ## Advanced
 
 * [Arrow Funcion](basic/functions/arrow-function.md)
