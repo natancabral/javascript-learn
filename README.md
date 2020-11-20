@@ -11,7 +11,7 @@
 // constant object
 const welcome = {
   message: 'Welcome',
-  person: 'my litte',
+  person: 'my little',
   subject: 'friend',
 }
 // arrow function destruction 
