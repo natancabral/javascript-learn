@@ -25,7 +25,7 @@ console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
 
 ```
 ---
-<img src="welcome.png">
+<img src="hi-welcome.png">
 
 
 ## Advanced
