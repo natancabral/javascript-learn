@@ -44,25 +44,24 @@ console.log(uniqueItens);
 
 ## Unique Values | Object
 
-#### Dont Works
-
 ```js
-//Dont works from Object
-const v = [{a:11},{a:22},{a:33},{a:22},];
-Array.from(new Set(v),(x,i,y) => console.log(x,i))
-Object { a: 11 }
-Object { a: 22 }
-Object { a: 33 }
-Object { a: 22 }
-
-//Works but only one value
-const person = [ 
-  {"name":"Joe", "age":17}, 
-  {"name":"Bob", "age":17}, 
-  {"name":"Tom", "age":35} 
+// Object Array
+const listOfTags = [
+    { id: 1, label: "Hello", color: "red", sorting: 0 }, 
+    { id: 2, label: "World", color: "green", sorting: 1 }, 
+    { id: 3, label: "Hello", color: "blue", sorting: 4 }, 
+    { id: 4, label: "Sunshine", color: "yellow", sorting: 5 }, 
+    { id: 5, label: "Hello", color: "red", sorting: 6 }
 ];
-// Set Unique Values
-const ages = [...new Set(person.map(x => x.age))]
-console.log(ages)
-// [17,35]
+// filter keys
+const keys = ['label', 'color'];
+// Action
+const filtered = listOfTags.filter(
+  (s => o => 
+    (k => !s.has(k) && s.add(k))
+      (keys.map(k => o[k]).join('|'))
+    )
+    (new Set)
+  );
+console.log(filtered);
 ```
