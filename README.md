@@ -21,8 +21,8 @@ let GoodMorning = ({message: ms, person: ps, subject: su}) => {
 // destruction array, you can change
 let hi = [...['Hello!'], GoodMorning(welcome)]
 // log
-console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
-
+console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px"); 
+// map not necessary ;)
 ```
 ---
 <img src="hi-welcome.png">
