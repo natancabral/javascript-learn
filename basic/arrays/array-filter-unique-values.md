@@ -68,7 +68,7 @@ console.log(filtered);
 ```
 
 Solution #2 (one key comparison)
-```
+```js
 const property = 'id';
 const filtered = listOfTags.reduce((acc, current) => {
   const x = acc.find(item => item[property] === current[property]);
@@ -82,7 +82,7 @@ console.log(filtered);
 ```
 
 Solution #3 (one key comparison)
-```
+```js
 const property = 'id';
 const seen = new Set();
 const filtered = listOfTags.filter(el => {
@@ -94,7 +94,7 @@ console.log(filtered);
 ```
 
 Solution #4 (one key comparison)
-```
+```js
 const property = 'id';
 const filtered = [...new Map(listOfTags.map(item => [item[property], item])).values()];
 console.log(filtered);
