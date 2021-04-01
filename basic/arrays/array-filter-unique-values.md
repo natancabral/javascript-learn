@@ -50,6 +50,7 @@ const listOfTags = [
     { id: 1, label: "Hello", color: "red", sorting: 0 }, 
     { id: 2, label: "World", color: "green", sorting: 1 }, 
     { id: 3, label: "Hello", color: "blue", sorting: 4 }, 
+    { id: 3, label: "Hello id 3", color: "blue id 3", sorting: 4 }, 
     { id: 4, label: "Sunshine", color: "yellow", sorting: 5 }, 
     { id: 5, label: "Hello", color: "red", sorting: 6 }
 ];
@@ -63,5 +64,38 @@ const filtered = listOfTags.filter(
     )
     (new Set)
   );
+console.log(filtered);
+```
+
+Solution #2 (one key comparison)
+```
+const property = 'id';
+const filtered = listOfTags.reduce((acc, current) => {
+  const x = acc.find(item => item[property] === current[property]);
+  if (!x) {
+    return acc.concat([current]);
+  } else {
+    return acc;
+  }
+}, []);
+console.log(filtered);
+```
+
+Solution #3 (one key comparison)
+```
+const property = 'id';
+const seen = new Set();
+const filtered = listOfTags.filter(el => {
+  const duplicate = seen.has(el[property]);
+  seen.add(el[property]);
+  return !duplicate;
+});
+console.log(filtered);
+```
+
+Solution #4 (one key comparison)
+```
+const property = 'id';
+const filtered = [...new Map(listOfTags.map(item => [item[property], item])).values()];
 console.log(filtered);
 ```
