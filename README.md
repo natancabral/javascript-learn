@@ -66,9 +66,11 @@ console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
   * Pop Push Shoft Unshift [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
   * [Delete](basic/advanced/delete-array-and-object.md)
   * Sort & Reverse [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-* Functions - Declare, Invoke
-* Functions - Parameters, Arguments
-* Functions - Return
+* Functions 
+  * Declare, Invoke
+  * Parameters, Arguments
+  * Return
+  * [Currying](basic/functions/currying-function.md)
 * Objects
 * Conditional Statements - Basics
 * Conditional Statements Continued
