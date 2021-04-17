@@ -1,5 +1,26 @@
 ## Currying Functions
 
+#### Currying is an advanced technique of working with functions. It’s used not only in JavaScript, but in other languages as well.
+
+```js
+function curry( fn ) {
+  return function( a ) {
+    return function( b ) {
+      return fn( a, b );
+    };
+  };
+}
+
+// usage
+function sum( a, b ) {
+  return a + b;
+}
+
+const value = curry( sum )( 1 )( 2 );
+console.log( value ); 
+// result: 3
+```
+
 #### Comparing traditional functions to curryimng functions
 
 ```js
@@ -33,8 +54,6 @@ const value = lazy( "Weolcome", s => s.toUpperCase() ).getIndex(2);
 console.log( value );
 // result
 ```
-
-#### Lazy Evaluation
 
 ```js
 cons lazy = ( arr, fn ) => {
