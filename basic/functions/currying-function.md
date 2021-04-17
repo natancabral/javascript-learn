@@ -4,9 +4,21 @@
 
 ```js
 // Traditional Function
-function ( ...fn ){
+function toStringfy( ...fn ){
   return function( string ) {
      // reduce
   };
+}
+
+cons lazy = ( string, fn ) => {
+  read: function (){
+    return //map 
+  },
+  getIndex: function( index ){
+    return //map 
+  },
+  removeIndex: function( index ){
+    return //map 
+  },
 }
 ```
