@@ -116,3 +116,6 @@ console.log("%c" + hi.map(e=>e).join(''), "color:green; font-size: 25px");
 * Key Events
 * Event Object
 
+### String
+
+* [Reduce Name](basic/string/string-name.md)
