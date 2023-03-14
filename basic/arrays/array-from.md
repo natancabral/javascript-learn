@@ -58,7 +58,7 @@ const insecureSources = sources.filter(link => link.startsWith('http://'));
 #### Array from an Array-like object (arguments)
 
 ```js
-function f() {
+function f(arguments) {
   return Array.from(arguments);
 }
 
