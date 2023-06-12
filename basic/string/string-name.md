@@ -5,7 +5,7 @@
 ```js
 function reduceFullName(name: string, MAX_LENGTH: number, removeLinkNames: boolean) {
   if (removeLinkNames) {
-    name = name.replace(/da|das|de|do|dos/gi, '');
+    name = name.replace(/ da | das | de | do | dos /gi, ' ');
   }
 
   const clear = (str) => String(str).replace(/\s+/g, ' ').trim(); 
